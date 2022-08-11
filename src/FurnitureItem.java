@@ -13,7 +13,7 @@ public class FurnitureItem {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter furniture code");
         furnitureCode = sc.nextInt();
-        System.out.println("Enter furniture type :");
+        System.out.println("Enter furniture type (stool, chair, cupboard, table) :");
         sc.nextLine();
         furnitureType = sc.nextLine();
         System.out.println("Enter furniture grade 1, 2, 3 :");
